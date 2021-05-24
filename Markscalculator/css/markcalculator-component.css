@@ -1,0 +1,57 @@
+
+body {
+    background: url(../img/backgroundtexture.jpg);
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calc .form {
+    background-color: rgba(0, 0, 0, 0.43);
+    color: #fff;
+    padding: 10px 0;
+    width: 50vw;
+    border-radius: 8px;
+    text-align: end;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.calc .form h1 {
+    text-align: center;
+}
+
+label {
+    float: left;
+}
+
+.calc .form input {
+    width: 49vw;
+    height: 38px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    height: 38px;
+    width: 150px;
+    background-color: #fff;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.copy-right {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
